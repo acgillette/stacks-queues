@@ -23,6 +23,10 @@ class Queue
     return size == 0
   end
 
+  def reverse
+    return @store.reverse
+  end
+
   def to_s
     return @store.to_s
   end
